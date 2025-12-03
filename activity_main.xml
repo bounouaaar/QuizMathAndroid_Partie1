@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_normal"
+    android:background="@color/bg_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Nombres -->
+    <TextView
+        android:id="@+id/txtNumber1"
+        android:textSize="@dimen/text_large"
+        android:textColor="@color/text_dark"
+        android:text="---"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtNumber2"
+        android:textColor="@color/text_dark"
+        android:textSize="@dimen/text_large"
+        android:text="---"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Boutons opérations -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:text="@string/addition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSub"
+            android:text="@string/soustraction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp" />
+
+        <Button
+            android:id="@+id/btnMul"
+            android:text="@string/multiplication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp" />
+    </LinearLayout>
+
+    <!-- Résultat -->
+    <TextView
+        android:id="@+id/txtResult"
+        android:text="@string/result_label"
+        android:textSize="@dimen/text_large"
+        android:textColor="@color/primary_dark"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal" />
+
+    <!-- Générer -->
+    <Button
+        android:id="@+id/btnGenerate"
+        android:text="@string/generate"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
