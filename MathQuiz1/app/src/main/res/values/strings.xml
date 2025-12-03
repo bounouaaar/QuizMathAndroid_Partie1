@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MathQuiz</string>
+    <string name="generate">Générer</string>
+    <string name="addition">+</string>
+    <string name="soustraction">-</string>
+    <string name="multiplication">×</string>
+    <string name="result_label">Résultat :</string>
+    <string name="number1_label">Nombre 1 :</string>
+    <string name="number2_label">Nombre 2 :</string>
+</resources>
