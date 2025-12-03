@@ -1,2 +1,2 @@
 # QuizMathAndroid_Partie1
-## Par BOUNOUAR Mohamed
+## Par BOUNOUAR Mohammed
